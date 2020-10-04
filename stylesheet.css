@@ -131,19 +131,19 @@ main .work-wrapper .work {
   margin-bottom: 60px;
 }
 
-main .work-wrapper .work .work-image::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
-
 main .work-wrapper .work .work-image {
   width: 100%;
   position: relative;
   background: black;
 }
 
-main .work-wrapper .work .work-image .kusa {
+main .work-wrapper .work .work-image::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+main .work-wrapper .work .work-image .grass {
   display: block;
   position: absolute;
   top: 0;
