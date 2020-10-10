@@ -94,12 +94,12 @@ main {
   position: relative;
   z-index: 1;
   .container {
-    padding: 134px 70px 50px;
     @media (max-width: 1024px) {
       padding: 134px 20px 50px;
     }
+    padding: 134px 70px 50px;
     border-bottom: 1px solid #ccc;
-    > h1 {
+    .profile {
       color: #777;
       width: 620px;
       font-weight: lighter;
